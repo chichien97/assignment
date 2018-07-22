@@ -1,0 +1,1195 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+}
+/* Main Content For Every Page */
+.main{
+  margin: 0px;
+  padding: 44px 0px 0px 250px;
+  width: auto;
+  height: 100%;
+}
+
+/* Web container */
+.w-container{
+  display: block;
+  padding: 4px;
+}
+/* Media Container */
+.m-container{
+  display: none;
+  padding: 4px;
+}
+
+/* Dashboard Main Section (ADMIN / CLIENT)*/
+.main .db-container{
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* padding: 20px; */
+}
+/* .main .db-container .db-container-content{
+  width: 100%;
+  height: 100%;
+} */
+.main .db-container .db-chart{
+  /* float:left; */
+  width: 50%;
+  height: 50%;
+}
+.main .client-container{
+  margin-top: 30px;
+  margin-left: 100px;
+  padding: 20px;
+  background-color: white;
+  width: 1200px;
+  height: 350px;
+}
+.main .table-paginate{
+  margin-top: 20px;
+}
+.main .table-paginate .page-no{
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.main .table-paginate .page-no:hover{
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+/* Buttons Section (ADMIN / CLIENT) */
+.btn{
+  box-shadow: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn-icon{
+  margin-right:5px;
+}
+.btn-icon{
+  display: none;
+}
+.btn-icon-login{
+  position: absolute;
+  padding-top: 0.7em;
+  padding-left: 0.7em;
+  color: white;
+}
+.btn-nav-icon{
+  padding-left: 20px;
+}
+.btn-nav{
+  background: none;
+  color: #E7E5E5;
+  text-shadow: 2px 2px 3px #000000;
+  font-weight: bold;
+  font-family: arial;
+  font-style: normal;
+  font-size: 14px;
+  padding-bottom: 20px;
+  /* padding: 6px 20px 6px 20px; */
+  margin: 0;
+}
+.btn-filter{
+  -moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+  height:auto;
+}
+/* .btn-filter:hover{
+
+} */
+.btn-create{
+  -moz-box-shadow:inset 0px 39px 0px -24px #737ee6;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #737ee6;
+	box-shadow:inset 0px 39px 0px -24px #737ee6;
+	background-color:#5d6be3;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3734b0;
+}
+.btn-m-create{
+  display: none;
+}
+.btn-add{
+  -moz-box-shadow:inset 0px 39px 0px -24px #737ee6;
+  -webkit-box-shadow:inset 0px 39px 0px -24px #737ee6;
+  box-shadow:inset 0px 39px 0px -24px #737ee6;
+  background-color:#5d6be3;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:6px 15px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #3734b0;
+  /* margin-bottom: 15px; */
+}
+.btn-close{
+  /* margin-bottom: 15px; */
+}
+.btn-pdf{
+  -moz-box-shadow:inset 0px 39px 0px -24px #ff0900;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #ff0900;
+	box-shadow:inset 0px 39px 0px -24px #ff0900;
+	background-color:#e61d17;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+}
+.btn-edit{
+  -moz-box-shadow:inset 0px 39px 0px -24px #4ce81c;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #4ce81c;
+	box-shadow:inset 0px 39px 0px -24px #4ce81c;
+	background-color:#0bde32;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #1bb528;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-top: 2px;
+}
+.btn-save{
+  -moz-box-shadow:inset 0px 39px 0px -24px #fff6af;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #fff6af;
+	box-shadow:inset 0px 39px 0px -24px #fff6af;
+	background-color:#ffec64;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+
+}
+.btn-reset{
+  -moz-box-shadow:inset 0px 39px 0px -24px #2396fa;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #2396fa;
+	box-shadow:inset 0px 39px 0px -24px #2396fa;
+	background-color:#57abfa;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #6fadeb;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.btn-tab{
+  height: 70px;
+  width: 20%;
+  float:left;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  background-color: white;
+}
+.btn-tab:hover{
+  background-color: red;
+}
+.btn-action{
+  color: #7CB9E8;
+}
+.btn-action:hover{
+  color: #0048BA;
+}
+.btn-drop{
+  /* border: 1px solid black;
+  /* border-color: black; */
+  /* background-color: red; */
+}
+.btn-edit-item{
+  -moz-box-shadow:inset 0px 39px 0px -24px #6a36e3;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #6a36e3;
+	box-shadow:inset 0px 39px 0px -24px #6a36e3;
+	background-color:#7a53f2;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	/* text-shadow:0px 1px 0px #b23e35; */
+}
+.btn-pay{
+  -moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+  -webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+  box-shadow:inset 0px -3px 7px 0px #29bbff;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+  background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+  background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+  background-color:#2dabf9;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  display:inline-block;
+  cursor: pointer;
+  color:#ffffff;
+  font-family: Ubuntu, Optima, sans-serif;
+  font-size: 20px;
+  padding:9px 70px 9px 70px;
+  text-decoration:none;
+  text-align: center;
+  width: auto;
+}
+.btn-submit{
+  -moz-box-shadow:inset 0px 39px 0px -24px #ffffff;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #ffffff;
+	box-shadow:inset 0px 39px 0px -24px #ffffff;
+	background-color:#f0f0f0;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+  text-align: center;
+  width: 6em;
+  /* margin-left: 40px;
+  margin-top: 30px; */
+}
+.btn-upload{
+  margin: 3px 0 0 0;
+}
+
+/* Login Section (ADMIN / CLIENT)*/
+.login-main{
+  width:100%;
+  height:100%;
+}
+.login-main .bd-img{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/loginWallpaper5.jpg");
+  z-index: -10000;
+  background-size: cover;
+}
+.login-title{
+  padding-top: 150px;
+  margin: 0px 37%;
+  font-family: Ubuntu, Optima, sans-serif;
+  font-size: 50px;
+  color:white;
+}
+.login-container{
+  margin: 0px;
+  /* background-color: #C9FFE5; */
+  height: 500px;
+}
+.login-container .login-content{
+  /* background-color: #FF033E; */
+  margin: 0px 36%;
+  width: 400px;
+  height: 500px;
+}
+.login-container .login-content .login-usernm{
+  margin-left: 40px;
+  padding: 20px 20px 20px 0px;
+  width: 100%;
+  color: #DCDDDE;
+}
+.login-container .login-content .login-pwd{
+  margin-left: 40px;
+  padding: 20px 20px 20px 0px;
+  width: 100%;
+  color: #DCDDDE;
+}
+.login-container .login-content .login-btn{
+  width: 100%;
+  height: auto;
+  margin-left: 2.5em;
+}
+.login-label{
+  font-size: 28px;
+  font-family: Ubuntu, Optima, sans-serif;
+}
+.usrnm{
+  margin: 0px 0px 0px 2px;
+  padding: 10px;
+  width: 95%;
+  border:1px solid lightgrey;
+  border-radius: 9px;
+}
+.pwd{
+  margin: 0px 0px 0px 2px;
+  padding: 10px;
+  width: 95%;
+  border:1px solid lightgrey;
+  border-radius: 9px;
+}
+
+/* Admin Add Modal Box Section */
+.add-modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 95%;
+  overflow-y: auto;
+  background-color: none;
+}
+.add-modal-content{
+  background-color: white;
+  margin-left: 20%;
+  padding: 20px 30px 20px 30px;
+  width: 48%;
+  height: 86%;
+  overflow: auto;
+  border: 1px solid lightgrey;
+  border-radius: 9px;
+}
+.add-modal .add-modal-content .modal-box-input{
+  width: 100%;
+  height: auto;
+  /* background-color: pink; */
+  margin-top:10px;
+}
+.add-modal .add-modal-content .modal-box-label{
+  width: 100%;
+  height: auto;
+  /* background-color: lightgreen; */
+}
+.add-modal .add-modal-content .modal-box-text{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+/* Client Add Modal Box Section*/
+.modal-box-container{
+  z-index: 3000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  display: none;
+}
+.modal-add{
+  width: 30%;
+  height: 30rem;
+  background-color: white;
+  padding: 20px 30px;
+  z-index: 2500;
+  position: fixed;
+  margin: 1% 0px 0px 22%;
+  /* float: right; */
+  /* top: 7em;
+  right: 30em; */
+  border: 1px solid lightgrey;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;
+  box-shadow: 1px 1px 5px 1px grey;
+  display: block;
+}
+.modal-add .modal-content-c .modal-input{
+  margin-bottom: 2em;
+}
+.modal-add .modal-content-c .modal-input .modal-label{
+  width: 100%;
+}
+.modal-add .modal-content-c .modal-input .modal-text{
+  /* background-color: white; */
+  margin: 0px 0px 0px 2px;
+  padding: 10px;
+  width: 95%;
+  border:1px solid lightgrey;
+  border-radius: 9px;
+}
+.modal-add .modal-content-p .modal-input{
+  margin-bottom: 2em;
+}
+.modal-add .modal-content-p .modal-input .modal-label{
+  width: 100%;
+}
+.modal-add .modal-content-p .modal-input .modal-text{
+  margin: 0px 0px 0px 2px;
+  padding: 10px;
+  width: 95%;
+  border:1px solid lightgrey;
+  border-radius: 9px;
+}
+/* .modal-add .modal-content .modal-input{
+  width: 500px;
+  background-color: pink;
+  margin-top:10px;
+}
+.modal-add .modal-content .modal-label{
+  width: 170px;
+  background-color: lightgreen;
+}
+.modal-add .modal-content .modal-text{
+  width: 300px;
+} */
+
+/* Modal Box Close Button (ADMIN / CLIENT) */
+.close-modal{
+  color: grey;
+  float: right;
+  font-size:28px;
+  font-weight: bold;
+}
+.close-modal:hover, .close-modal:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Filter Section (ADMIN / CLIENT)*/
+.filter-container{
+  width: 95%;
+  /* margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px; */
+  margin: 40px auto 0px auto;
+  background-color: aliceblue;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.filter-container .filter-content{
+  width: 70%;
+  height: auto;
+  padding-top: 4px;
+}
+.filter-container label{
+  width: 20%;
+  height: auto;
+}
+.filter-container input{
+  width: 100%;
+  height: auto;
+  padding: 5px 10px 5px 7px;
+  border: 1px ridge lightgrey;
+  border-radius: 5px;
+}
+.filter-container .filter-btn{
+  width: auto;
+  margin-top: 20px;
+}
+.filter-container .adv-setting-on{
+  color: red;
+  cursor: pointer;
+  display: block;
+  margin-top: 0.5rem;
+}
+.filter-container .adv-setting-on:hover{
+  color: rgba(255,0,0,0.5);
+  cursor: pointer;
+}
+.filter-container .adv-setting-off{
+  color: red;
+  cursor: pointer;
+  display: none;
+  margin-top: 0.5rem;
+}
+.filter-container .adv-setting-off:hover{
+  color: rgba(255,0,0,0.5);
+  cursor: pointer;
+}
+.fitler-container .adv-setting .adv-setting-container{
+  display:none;
+  margin:0px;
+  padding:0px;
+}
+
+/* Admin Manage Page Table Container Section */
+.manage-container{
+  padding: 30px;
+}
+.m-table .m-drop{
+  position: relative;
+  display: inline-block;
+}
+.m-table .m-drop .m-drop-content{
+  width: 170px;
+  display: none;
+  border: 1px solid grey;
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  right: 1px;
+  /* top: 1px; */
+}
+.m-table .m-drop .m-drop-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.m-table .m-drop .m-drop-content a:hover{
+  background-color: lightgrey;
+}
+.m-table .m-drop:hover .m-drop-content{
+  display:block;
+}
+
+/* Admin Edit Page Main Section */
+.edit-container{
+  padding: 30px;
+}
+.edit-container .edit-input{
+  margin: 20px;
+}
+.edit-container .edit-input label{
+  width: 180px;
+}
+.edit-container .edit-input input{
+  border: 0px;
+  border-bottom: 3px ridge skyblue;
+}
+
+/* Client Maintenance Section */
+.maintenance-container{
+  width: 1500px;
+  height: 100%;
+}
+/* Client Maintenance Tab Section */
+.tab-container{
+  width: 70%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 20px;
+  background-color: none;
+  float: left;
+  border: 0px;
+}
+.tab-container .tab-btn-container{
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+.tab-container .tab-content{
+  /* height: 80%; */
+  width: 100%;
+  background-color: none;
+  box-sizing: border-box;
+  color: black;
+  border: 0px;
+  margin-top: 1px;
+  padding-top: 3px;
+  display: none;
+  /* overflow: visible; */
+}
+.tab-container .tab-content table{
+  margin-top: 5px;
+}
+/* Client Maintenance Create Customer Modal Box Section  */
+.customer-container{
+  width: 450px;
+  height: 55%;
+  background-color: white;
+  padding: 1em;
+  z-index: 1;
+  position: fixed;
+  /* margin: auto; */
+  /* float: right; */
+  top: 7em;
+  right: 30em;
+  border: 3px groove rgba(7,5,255,0.54);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  display: none;
+}
+.customer-container .customer-create-container{
+  background-color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.customer-container .customer-create-container .customer-label{
+  width: 35%;
+}
+.customer-container .customer-create-container .customerinput{
+  width: 60%;
+}
+/* Client Maintenance Create Product Modal Box Section */
+.product-container{
+  width: 450px;
+  height: 55%;
+  /* float: right; */
+  background-color: white;
+  padding: 20px;
+  z-index: 1;
+  position: fixed;
+  top: 7em;
+  right: 30em;
+  border: 3px groove rgba(7,5,255,0.54);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  display: none;
+}
+.product-container .product-create-container{
+  background-color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.product-container .product-create-container .product-label{
+  width: 30%;
+}
+.product-container .product-create-container .product-input{
+  width: 60%;
+}
+/* CLient EDIT Container Header Section (CUSTOMER / PRODUCT) */
+.header-title{
+  width: 420px;
+}
+.header-close{
+  width: 50px;
+  color: lightgrey;
+  float: right;
+  font-size:28px;
+  font-weight: bold;
+}
+.header-close:hover, .header-close:focus{
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Client Quotation (MAIN / CREATE / VIEW) */
+.q-container{
+  width: 100%;
+  padding: 30px;
+}
+/* Client Main Quotation Table Section */
+.q-container .q-table{
+  margin-top: 30px;
+  height: auto;
+}
+.q-container .q-table label{
+  font-size: 17px;
+  color: white;
+  background-color: blue;
+  padding: 3px 20px 3px 20px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  width: auto;
+}
+.q-container .q-table input{
+  border: 0px;
+  width: auto;
+  height: 30px;
+  background: none;
+  padding-left: 10px;
+}
+/* .q-container .q-table input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+.q-container .q-table .q-drop{
+  position: relative;
+  display: inline-block;
+}
+.q-container .q-table .q-drop .q-drop-content{
+  width: 170px;
+  display: none;
+  border: 1px solid black;
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  right: 0.5px;
+}
+.q-container .q-table .q-drop .q-drop-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.q-container .q-table .q-drop .q-drop-content a:hover{
+  background-color: lightgrey;
+}
+.q-container .q-table .q-drop:hover .q-drop-content{
+  display: block;
+  z-index: 99;
+}
+/* Client Create / Edit Quotation Header */
+.q-container .q-header{
+  margin-left: 25px;
+  margin-bottom: 15px;
+  width:100%;
+}
+.q-container .q-header h3{
+  width: 90%;
+  float:left;
+}
+/* Client Create / Edit Quotation Table Section ADD NEW "+" icon */
+.q-container .add-btn{
+  color: red;
+  margin-left: 5px;
+  cursor: pointer;
+}
+/* Client Create / Edit Quotation ADD Customer Section */
+.q-container .q-cust-container{
+  width: 100%;
+  height: 35%;
+  padding-top: 0.4em;
+  padding-left: 1.0em;
+  /* margin-bottom: 2.0em; */
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: 3px solid grey;
+  border-left: 3px solid grey;
+  border-right: 3px solid grey; */
+}
+.q-container .q-cust-container .q-cust-left{
+  float: left;
+  padding: 0px;
+}
+.q-container .q-cust-container .q-cust-right{
+  padding: 0px;
+}
+.q-container .q-cust-container .add-cust-container{
+  width: auto;
+  padding-top: 0.2em;
+}
+.q-container .q-cust-container .add-cust-container label{
+  width: 30%;
+}
+.q-container .q-cust-container .add-cust-container .cust-input{
+  width: 50%;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 3px;
+}
+.q-container .q-cust-container .add-cust-container .btn-create{
+  margin-left: 10px;
+}
+.q-container .q-cust-container .add-cust-container p{
+  margin:0px;
+}
+.q-container .q-cust-container .add-cust-container .address-input{
+  width: auto;
+  height: 100px;
+}
+/* Client Create Quotation ADD Product Section */
+.q-container .q-product-container{
+  margin-top: 1rem;
+  /* padding: 0px; */
+}
+.q-container .q-product-container .product-table thead{
+  background: #FFFAFA;
+  /* border-color: grey;
+  border-top: 3px solid white;
+  border-left: 3px solid grey;
+  border-right: 3px solid grey;
+  border-bottom: 3px solid grey; */
+}
+.q-container .q-product-container .product-table thead th{
+  /* border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey; */
+}
+.q-container .q-product-container .product-table tbody tr{
+  /* border-left: 3px solid grey;
+  border-right: 3px solid grey; */
+}
+.q-container .q-product-container .product-table tbody tr td{
+  /* border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 2px; */
+}
+.q-container .q-product-container .product-table tfoot{
+
+}
+.q-container .q-product-container .product-table .q-input{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid lightgrey;
+}
+.q-container .q-product-container .product-table .qTableCol{
+  border: 0px;
+  width: 100%;
+}
+.q-container .q-product-container .product-table .q-input-num{
+  width: 6em;
+}
+.q-container .q-product-container .product-table .q-input:focus{
+  border-bottom: 1px solid darkblue;
+}
+/* Client View Quotation */
+.q-container .qView-content{
+  padding: 20px;
+}
+.q-container .qView-btn{
+  padding: 10px;
+}
+
+/* Client Invoice */
+.i-container{
+  width: 100%;
+  padding: 30px;
+}
+/* Client Invoice Tab Button for Table */
+.i-container .i-tabs-content{
+  border-bottom: 3px ridge blue;
+  margin: 0px;
+}
+.i-container .i-tabs-content .i-tab{
+  background: none;
+}
+.i-container .i-tabs-content .i-tab:active{
+  background: none;
+  outline-style: none;
+  outline: none;
+  border-bottom: 3px ridge blue;
+}
+/* Client Invoice Table Section */
+.i-container .iv-table th,td{
+  padding: 10px;
+}
+/* .i-container .i-table-container .i-table{
+  height: auto;
+  width: 100%;
+
+} */
+/* .i-container .i-table-container .i-table input{
+  background: none;
+  border: 0px;
+  width: auto;
+  height: auto;
+} */
+/* Client Invoice Table Content */
+.i-container .overdue{
+  background-color: #FF0800;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #FF0800;
+  text-align: center;
+  color: black;
+  width: auto;
+}
+.i-container .partial{
+  font-size: 14px;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  text-align: center;
+  color: black;
+  width: 100px;
+}
+.i-container .paid{
+  font-size: 14px;
+  background-color: #40FF19;
+  border-radius: 10px;
+  border: 1px solid #40FF19;
+  text-align: center;
+  color: black;
+  width: 100px;
+}
+.i-container .draft{
+  font-size: 14px;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  width: 100px;
+}
+/* .i-container .i-table select{
+  border: 0px;
+  padding-left: 10px;
+  height: 30px;
+  background: none;
+  border-bottom: 1px solid black;
+  -webkit-appearance: none;
+}
+.i-container .i-table select > option{
+} */
+.i-container .iV-table input{
+  border: 0px;
+  width: auto;
+  height: 30px;
+  background: none;
+  /* padding-left: 10px; */
+}
+.i-container .iV-table .i-drop{
+  position: relative;
+  display: inline-block;
+}
+.i-container .iV-table .i-drop .i-drop-content{
+  width: 170px;
+  display: none;
+  border: 1px solid black;
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  right: 1px;
+}
+.i-container .iV-table .i-drop .i-drop-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.i-container .iV-table .i-drop .i-drop-content a:hover{
+  background-color: lightgrey;
+}
+.i-container .iV-table .i-drop:hover .i-drop-content{
+  display: block;
+}
+/* Client Invoice Create Section */
+/* Client Invoice Create Header Section */
+.i-container .i-header{
+  width: 100%;
+  height: auto;
+}
+/* .i-container .i-header h3{
+  width: auto;
+  height: auto;
+  /* float: left; */
+/* } */
+
+/* Client Invoice Create Content Section */
+/* .i-container .i-content{
+  width: 100%;
+  height: auto;
+} */
+.i-container .btn-save,.btn-edit-item,.btn-pay{
+  /* float: right; */
+  margin-top: 3rem;
+}
+.i-container .i-input-container{
+  width: 100%;
+  height: 20%;
+}
+.i-container .i-left{
+  width: 40%;
+  float: left;
+  height: auto;
+}
+.i-container .i-right{
+  float: left;
+  width: 40%;
+  height: auto;
+}
+.i-container .i-input label{
+  width: 30%;
+}
+.i-container .i-input input{
+  width: 60%;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 3px;
+}
+.i-container .i-create-table{
+  margin-top:4rem;
+}
+.i-container .i-create-table .iEdit-input{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid lightgrey;
+}
+/* Client Invoice Create Table Section */
+.i-container .i-table{
+  margin-top: 5rem;
+  border: 1px solid lightgrey;
+}
+.i-container .i-table p{
+  margin: 0px;
+}
+.i-container .i-table input{
+  border: 0px;
+  background: none;
+  /* text-align: center; */
+}
+/* Client Invoice View Table */
+
+/* Client Setting  */
+.client-setting{
+  width: 100%;
+  height: auto;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+/* Client Logo Section*/
+.client-setting .client-logo{
+  height: auto;
+  width: 20%;
+  float: left;
+  /* background-color: lightyellow; */
+  padding: 20px;
+}
+.client-setting .client-list{
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0px;
+}
+.client-setting .client-list label{
+  float: left;
+  width: 8em;
+}
+.client-setting .client-list .list-no{
+  width: auto;
+  float:left;
+}
+/* .client-setting .client-list li p{
+  float: right;
+} */
+.client-setting .setting-label{
+  width: 40%;
+}
+/* Client Details Section */
+.client-setting .client-setting-detail{
+  float: left;
+  height: 100%;
+  width: 60%;
+  /* background-color: #C19A6B; */
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/* .client-setting .client-setting-detail .setting-detail-input .setting-label{
+  border-bottom: 3px ridge blue;
+} */
+.client-setting .client-setting-detail .setting-detail-input .setting-input{
+  border: 0px;
+  background: none;
+  border: none;
+
+}
+.client-setting .client-setting-detail .setting-detail-input textarea{
+  resize: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Client Setting Edit Section */
+.client-setting .client-setting-edit{
+  float: left;
+  height: 100%;
+  width: auto;
+  /* background-color: skyblue; */
+  display: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.client-setting .setting-left{
+  /* float: left; */
+  position:relative;
+}
+.client-setting .setting-right{
+  float:right;
+  position:relative;
+}
+.client-setting .setting-up{
+  width: 100%;
+  height: auto;
+}
+.client-setting .setting-bottom{
+  margin-top: 1em;
+  position:relative;
+}
+.client-setting .client-setting-edit .setting-edit-input .setting-input, textarea{
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+.client-setting .client-setting-edit .setting-edit-input .setting-input, .setting-edit-label{
+  width: 100%;
+}
+
+/* Client Setting Reset Password Section */
+.client-setting .client-setting-reset{
+  float: left;
+  height: 100%;
+  width: 60%;
+  /* background-color: red; */
+  display: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.client-setting .client-setting-reset .setting-reset-input{
+  margin-top:1em;
+}
+.client-setting .client-setting-reset .reset-input{
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  width: 80%;
+}
